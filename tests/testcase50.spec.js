@@ -77,7 +77,7 @@ test ('TC11-Check URL is protected or not', async ({page})=>{
     await basepage.directdashboardpage();
 })
 
-test.only ('TC12-Submit form', async ({page})=>{
+test ('TC12-Submit form', async ({page})=>{
     const basepage = new Basepage(page);
     const data = Testdata;
     await basepage.launchURL();
